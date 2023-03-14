@@ -1,3 +1,4 @@
+import CartWidget from '../CartWidget/CartWidget'
 import './NavBar.css'
 
 const NavBar =()=>{
@@ -9,6 +10,7 @@ const NavBar =()=>{
                 <button className='btn btn-outline-success'>Lámparas</button>
                 <button className='btn btn-outline-success'>Juguetes</button>
             </div>
+            <CartWidget />
         </nav>
     )
 }
